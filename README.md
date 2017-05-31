@@ -14,4 +14,6 @@
 9. Neptune
 10. Pluto
 
+#### Objects are not drawn to scale
+
 ## Made By Ty Sabs
