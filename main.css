@@ -1,0 +1,130 @@
+html,
+body,
+main {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(90deg, #fff -50%, #000 80%);
+}
+
+div {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.sun {
+  height: 40vw;
+  width: 40%;
+  background-image: radial-gradient(ellipse , #fff 10%, #ffad55 80%);
+  left: -30%;
+  top: calc(50% - 20vw);
+  overflow: hidden;
+}
+
+.mercury {
+  background-color: #534741;
+  height: 0.5vw;
+  width: 0.5%;
+  left: 14%;
+  top: calc(50% - 0.25vw);
+}
+
+.venus {
+  background-color: #c7b299;
+  height: 2.2vw;
+  width: 2.2%;
+  left: 20%;
+  top: calc(50% - 1.1vw);
+}
+
+.earth {
+  background-color: #29abe2;
+  height: 2.4vw;
+  width: 2.4%;
+  left: 26%;
+  top: calc(50% - 1.2vw);
+}
+
+.mars {
+  background-color: #770e12;
+  height: 1.6vw;
+  width: 1.6%;
+  left: 34%;
+  top: calc(50% - 0.8vw);
+}
+
+.jupiter {
+  background-color: #a67c52;
+  height: 10vw;
+  width: 10%;
+  left: 46%;
+  top: calc(50% - 5vw);
+}
+
+.saturn {
+  background-color: #c69c6d;
+  height: 7vw;
+  width: 7%;
+  left: 64%;
+  top: calc(50% - 3.5vw);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.rings-saturn {
+  border: 6px #c69c6d solid;
+  height: 2vw;
+  width: 160%;
+  margin-top: 30%;
+}
+
+@media screen and (max-width: 540px) {
+  .rings-saturn {
+    border: 2px #c69c6d solid;
+    width: 180%;
+  }
+}
+
+.uranus {
+  background-color: #00a99d;
+  height: 6vw;
+  width: 6%;
+  left: 78%;
+  top: calc(50% - 3vw);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.rings-uranus {
+  border: 6px #00a99d solid;
+  height: 10vw;
+  width: 40%;
+  top: -40%;
+  margin-bottom: 50%;
+}
+
+@media screen and (max-width: 540px) {
+  .rings-uranus {
+    border: 2px #00a99d solid;
+    width: 50%;
+  }
+}
+
+.neptune {
+  background-color: #0071bc;
+  height: 6.2vw;
+  width: 6.2%;
+  left: 88%;
+  top: calc(50% - 3.1vw);
+}
+
+.pluto {
+  background-color: #998675;
+  height: 0.4vw;
+  width: 0.4%;
+  left: 98%;
+  top: calc(50% - 0.2vw);
+}
